@@ -2,8 +2,8 @@
 header('Content-Type: application/json');
 
 $student = [
-    "name" => "Novelene",
-    "age" => 27,
+    "name" => "Deo",
+    "age" => 40,
     "course" => "BSIT"
 ];
 
