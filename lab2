@@ -1,0 +1,7 @@
+<?php
+$jsonString = '{"name":"Deo","age":40,"email":"reyesdeo_bsit@plmun.edu.ph"}';
+$objectData = json_decode($jsonString);        // Default: returns PHP Object
+$arrayData  = json_decode($jsonString, true);  // Second param 'true': returns PHP Associative Array
+echo "Object: " . $objectData->name . "<br>";
+echo "Array: " . $arrayData['email'];
+?>
